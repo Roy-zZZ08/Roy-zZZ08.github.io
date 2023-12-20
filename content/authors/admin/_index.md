@@ -122,4 +122,5 @@ highlight_name: true
 ---
 
 I’m Yuzhe Luo, a second-year Ph.D. student in State Key Lab of CAD&CG at Zhejiang University, advised by Prof. Xiaogang Jin. I obtained my bachelor degree in digital media technology from Zhejiang University in 2022.
+contact: yzluo@zju.edu.cn
 {style="text-align: justify;"}
