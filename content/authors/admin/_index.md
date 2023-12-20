@@ -31,6 +31,7 @@ bio: My research interests include texture and geometry processing, differentiab
 interests:
   - Computer Graphics
   - 3D Assets Processing
+  - Differentiable Rendering
 
 
 # Education to show in About widget
@@ -43,8 +44,8 @@ education:
       institution: Zhejiang University
       year: 2022
 
-contact:
-  email: yzluo@zju.edu.cn
+# contact:
+#   email: yzluo@zju.edu.cn
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

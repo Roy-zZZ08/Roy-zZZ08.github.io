@@ -229,15 +229,15 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  # - block: contact
-  #   id: contact
-  #   content:
-  #     title: Contact
+  - block: contact
+    id: contact
+    content:
+      title: Contact
   #     # subtitle:
   #     # text: |-
   #     #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
   #     # Contact (add or remove contact options as necessary)
-  #     email: yzluo@zju.edu.cn
+        email: yzluo@zju.edu.cn
   #     # phone: 888 888 88 88
   #     # appointment_url: 'https://calendly.com'
   #     # address:
@@ -255,11 +255,11 @@ sections:
   #     # coordinates:
   #     #   latitude: '37.4275'
   #     #   longitude: '-122.1697'  
-  #     contact_links:
-  #       - icon: github
-  #         icon_pack: fab
-  #         name: Github
-  #         link: 'https://github.com/Roy-zZZ08'
+        contact_links:
+          - icon: github
+            icon_pack: fab
+            name: Github
+            link: 'https://github.com/Roy-zZZ08'
   #       # - icon: skype
   #       #   icon_pack: fab
   #       #   name: Skype Me
