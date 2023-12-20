@@ -36,10 +36,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Computer Science
+    - course: Ph.D. in Computer Science
       institution: Zhejiang University
       year: in progress
-    - course: BSc in Digital Media Technology
+    - course: B.E. in Digital Media Technology
       institution: Zhejiang University
       year: 2022
 
