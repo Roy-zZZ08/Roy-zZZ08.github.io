@@ -43,6 +43,9 @@ education:
       institution: Zhejiang University
       year: 2022
 
+contact:
+  email: yzluo@zju.edu.cn
+
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 # skills:
