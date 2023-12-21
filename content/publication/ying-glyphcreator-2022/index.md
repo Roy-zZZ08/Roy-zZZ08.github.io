@@ -28,7 +28,25 @@ abstract: Circular glyphs are used across disparate ﬁelds to represent multidi
   the input data attributes to visual elements and customize visual styles. We evaluate
   the parsing model through a quantitative experiment, demonstrate the use of GlyphCreator
   through two use scenarios, and validate its effectiveness through user interviews.
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  focal_point: ""
+  preview_only: false
+
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9557223/
+
+# url_pdf: http://arxiv.org/pdf/1512.04133v1
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+url_video: 'https://www.youtube.com/watch?v=fSRTmJnPaMo'
+
 ---

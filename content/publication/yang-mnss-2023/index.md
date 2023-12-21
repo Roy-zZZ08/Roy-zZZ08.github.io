@@ -36,7 +36,24 @@ abstract: Although neural supersampling has achieved great success in various ap
   structural similarity (IF-SSIM) to quantitatively measure the temporal stability
   of rendered videos. Extensive evaluations demonstrate that our supersampling model
   outperforms existing or alternative solutions in both performance and temporal stability.
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  focal_point: ""
+  preview_only: false
+
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/10076842/
+
+# url_pdf: http://arxiv.org/pdf/1512.04133v1
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 ---
