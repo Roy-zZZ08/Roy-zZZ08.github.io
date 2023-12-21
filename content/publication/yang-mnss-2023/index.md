@@ -37,6 +37,9 @@ abstract: Although neural supersampling has achieved great success in various ap
   of rendered videos. Extensive evaluations demonstrate that our supersampling model
   outperforms existing or alternative solutions in both performance and temporal stability.
 
+# Summary. An optional shortened abstract.
+summary: We've developed a lightweight, efficient supersampling framework for real-time rendering on low-power devices, that reconstructs high-quality images and ensures temporal stability.
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

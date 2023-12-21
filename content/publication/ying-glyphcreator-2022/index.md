@@ -29,6 +29,8 @@ abstract: Circular glyphs are used across disparate ﬁelds to represent multidi
   the parsing model through a quantitative experiment, demonstrate the use of GlyphCreator
   through two use scenarios, and validate its effectiveness through user interviews.
 
+summary: GlyphCreator is an interactive tool that uses deep learning to generate and customize circular glyphs from data and sample glyphs, simplifying the design process. 
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
