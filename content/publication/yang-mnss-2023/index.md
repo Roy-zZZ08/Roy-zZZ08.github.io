@@ -55,5 +55,5 @@ links:
 # url_project: ''
 # url_slides: ''
 # url_source: '#'
-# url_video: '#'
+url_video: 'http://www.cad.zju.edu.cn/home/jin/tvcg20232/demo.mp4'
 ---
