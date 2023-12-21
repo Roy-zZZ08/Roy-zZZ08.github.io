@@ -28,7 +28,7 @@ doi: 10.1145/3610548.3618150
 image:
   # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
-  preview_only: true
+  preview_only: false
 
 url_pdf: ''
 url_code: 'https://github.com/Roy-zZZ08/Texture-Atlas-Compression'
