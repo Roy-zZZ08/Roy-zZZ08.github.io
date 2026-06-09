@@ -2,18 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
 
 :root {
-    --color-accent: #7fa185;
-    --color-accent-hover: #359466;
-    --color-link-card: #98A8F8;
-    --color-pub-title: #808D7C;
-    --color-pub-item-link: #748E63;
-    --color-terminal-accent: #ffaaaa;
-    --color-terminal-fg-dim: #ffffff;
-    --color-page-bg: #f6f8fa;
-    --color-text: #24292e;
-    --color-highlight-bg: #eff4ed;
+    --color-accent: #3182CE;
+    --color-accent-hover: #2C5282;
+    --color-link-card: #90CDF4;
+    --color-pub-title: #4A5568;
+    --color-pub-item-link: #4299E1;
+    --color-terminal-accent: #63B3ED;
+    --color-terminal-fg-dim: #EBF8FF;
+    --color-page-bg: #F7FAFC;
+    --color-text: #2D3748;
+    --color-highlight-bg: #EBF8FF;
     --color-nav-active-text: #ffffff;
-    --color-navbar-bg: #525957;
+    --color-navbar-bg: #2C5282;
     --font-family-monospace: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
     --sticky-below-nav: 80px;
     --shadow-publication-cover: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -278,7 +278,7 @@ a.item_link {
     width: 100%;
     max-width: 200px;
     aspect-ratio: 1 / 1;
-    border-radius: 50%;
+    border-radius: 8px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -308,4 +308,9 @@ a.item_link {
 .experience-inline-logo {
     height: 24px;
     width: auto;
+}
+
+/* Footer text size adjustment */
+.footer .text-muted {
+    font-size: 0.75rem;
 }

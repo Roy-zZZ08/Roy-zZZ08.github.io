@@ -8,7 +8,7 @@
 
 
 <div class="d-none d-md-block">
-    <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-top{% endif %} {% if include.last %}rounded-bottom{% endif %} {% if item.selected and page.path contains 'publications' %}selected-publication{% endif %}">
+    <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-top{% endif %} {% if include.last %}rounded-bottom{% endif %} {% if item.selected %}selected-publication{% endif %}">
         <div class="col-md-4 col-xl-3 mb-md-0 p-md-3 d-flex align-items-start publication-container">
             {%- if item.cover -%}
             <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy publication-cover rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<div class="row no-gutters d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-top{% endif %} {% if include.last %}rounded-bottom{% endif %} {% if item.cover %}lazy{% endif %} {% if item.selected and page.path contains 'publications' %}selected-publication{% endif %}" data-src="{{ item.cover | relative_url }}">
+<div class="row no-gutters d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-top{% endif %} {% if include.last %}rounded-bottom{% endif %} {% if item.cover %}lazy{% endif %} {% if item.selected %}selected-publication{% endif %}" data-src="{{ item.cover | relative_url }}">
     <div class="w-100 pub-mobile-overlay">
         <div class="d-flex align-items-start flex-column py-3 px-4 publication-container">
             <div class="mb-auto"></div>

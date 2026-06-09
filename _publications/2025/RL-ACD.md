@@ -1,15 +1,14 @@
 ---
 title:          "RL-ACD: Reinforcement Learning-based Approximate Convex Decomposition"
-date:           2025-08-31 00:00:00 +0800
-selected:       false
-pub:            "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)" 
-pub_last:       ""
+date:           2025-12-01 00:00:00 +0800
+selected:       true
+pub:            "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)"
 pub_date:       "2025"
 pub_ab:         "SIGGRAPH Asia"
 abstract: >-
   A data-driven, reinforcement learning-based approach for efficient and near-optimal convex shape decomposition.
 
-cover:          /assets/images/publications/RL-ACD.jpg
+cover:          /assets/images/publications/25-rlacd.jpg
 authors:
   - Yuzhe Luo
   - Zherong Pan
@@ -18,8 +17,8 @@ authors:
   - Yun Zeng
   - Xiangjun Tang
   - Yiqian Wu
-  - Xiaogang Jin†
-  - Xifeng Gao†
-links: 
-  Paper: https://dl.acm.org/doi/10.1145/3763270
+  - Xiaogang Jin
+  - Xifeng Gao
+links:
+  - ["PDF", "/assets/pdf/RL-ACD.pdf"]
 ---

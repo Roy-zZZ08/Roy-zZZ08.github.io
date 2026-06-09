@@ -1,34 +1,58 @@
 ---
 layout: default
-title : Yiqian Wu
+title : Yuzhe Luo
 navbar_title: Home
 ---
 
+{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+
 <div class="row">
+    <!-- Left sidebar: profile + year nav -->
     <div class="col-lg-3 col-md-4">
         {% include widgets/profile_card_mini.html %}
     </div>
+
+    <!-- Main content: bio + experience + all publications -->
     <div class="col-lg-9 col-md-8">
 
         {% include widgets/profile_card_bio_only.html %}
-
-        <!-- Debugging widgets -->
-        {% include widgets/debug_repo_name.html %}
-        {% include widgets/debug_url.html %}
 
         {% if site.data.display.homepage.show_experience %}
             {% include widgets/experience_card.html %}
         {% endif %}
 
-        {% include widgets/research_overview.html %}
+        <div class="card border-0 shadow-sm bg-white mt-3">
+            <div class="card-body p-4">
+                <span>Representative papers are </span>
+                <span class="text-highlight-bg">highlighted.</span>
+            </div>
+        </div>
 
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='Selected Publications'
-        %}
-        {% endif %}
+        {% for year in pubs_by_year %}
+        <div class="row mt-3">
+            <div class="col">
+                <h2 class="pt-4" id="year-{{ year.name }}">
+                    {{ year.name }}
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card border-0 shadow-sm bg-white">
+                    <div class="card-body p-0">
+                        {% assign selected_items = year.items | where: "selected", true %}
+                        {% assign non_selected_items = year.items | where: "selected", false %}
+                        {% for item in selected_items %}
+                            {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                        {% endfor %}
+                        {% for item in non_selected_items %}
+                            {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
     </div>
 </div>
