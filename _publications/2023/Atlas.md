@@ -1,6 +1,6 @@
 ---
 title:          "Texture Atlas Compression Based on Repeated Content Removal"
-date:           2023-12-01 00:00:00 +0800
+date:           2023-12-01
 selected:       true
 pub:            "ACM SIGGRAPH Asia (Conference Track)"
 pub_date:       "2023"

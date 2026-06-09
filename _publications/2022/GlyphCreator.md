@@ -1,6 +1,6 @@
 ---
 title:          "GlyphCreator: Towards Example-based Automatic Generation of Circular Glyphs"
-date:           2022-01-01 00:00:00 +0800
+date:           2022-01-01 00:00:00
 selected:       false
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2022"

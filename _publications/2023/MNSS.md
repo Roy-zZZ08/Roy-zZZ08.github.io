@@ -1,6 +1,6 @@
 ---
 title:          "MNSS: Neural Supersampling Framework for Real-Time Rendering on Mobile Devices"
-date:           2023-01-01 00:00:00 +0800
+date:           2023-01-01
 selected:       false
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2023"

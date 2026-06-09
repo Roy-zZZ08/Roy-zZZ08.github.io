@@ -1,6 +1,6 @@
 ---
 title:          "Global Discrete Optimization for Quad-Dominant Mesh Reduction"
-date:           2026-07-01 00:00:00 +0800
+date:           2026-07-01
 selected:       true
 pub:            "ACM SIGGRAPH (Conference Track)"
 pub_date:       "2026"

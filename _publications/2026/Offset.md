@@ -1,6 +1,6 @@
 ---
 title:          "Robust and Feature-Preserving Offset Meshing"
-date:           2026-06-01 00:00:00 +0800
+date:           2026-06-01
 selected:       false
 pub:            "ACM Transactions on Graphics (To Present at SIGGRAPH)"
 pub_date:       "2026"

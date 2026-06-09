@@ -1,6 +1,6 @@
 ---
 title:          "Lightmap Compression with Color-Coherent UV Clustering and Cascade Texture Optimization"
-date:           2026-01-01 00:00:00 +0800
+date:           2026-01-01
 selected:       false
 pub:            "Computer Graphics Forum (Special Issue of Eurographics)"
 pub_date:       "2026"
